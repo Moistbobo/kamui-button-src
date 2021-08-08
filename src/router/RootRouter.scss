@@ -1,0 +1,16 @@
+.main-router{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: stretch;
+
+
+  >.content{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	padding: 2rem;
+	overflow-y: auto;
+	position: relative;
+  }
+}
