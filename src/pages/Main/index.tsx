@@ -23,9 +23,9 @@ const Main = () => {
         </button>
       </div>
 
-      {counter > 0 && (
-        <p className="text">Times Kimochi Yokatta&apos;d: {counter}</p>
-      )}
+      <p className={`text ${counter === 0 ? 'hidden' : ''}`}>
+        Times Kimochi Yokatta&apos;d: {counter}
+      </p>
     </div>
   );
 };
